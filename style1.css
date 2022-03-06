@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:url('images/pic1.jpg');
+}
+.left{
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+}
+.mid{
+    display: block;
+    border: 2px solid green;
+    width: 33%;
+    margin:18px auto;
+
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display:inline-block;
+    border: 2px solid yellow;
+
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 20px;
+}
